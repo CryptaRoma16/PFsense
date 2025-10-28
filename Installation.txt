@@ -1,0 +1,51 @@
+How to Install PFsense 2.4.5 on old desktop pc
+
+Free BSD Pfsense firewall
+Minimum requirement: 4GB RAM
+
+LAN & PUBLIC
+
+DHCP server
+
+1-LAN
+1-WAN
+
+2 Internet > 3 LAN card
+No need Load balance and fail over
+
+Can load balance 2 internet or
+fail over -  to avoid downtime
+
+https://www.pfsense.org/download/
+Rufus 
+
+Mirror - HD
+Raid 1, 5
+Software Raid
+
+BSD
+Use different IP address
+Range IP - 100-200 (For Desktop)
+Yes
+Enable SSH (Putty or SSH)
+
+Connect to PC
+Check ipconfig > IPv4
+
+Putty > IPv4 address
+PFsense 
+admin ; pfsense
+Go to Chrome browser type the IP address
+
+Default
+Timezone
+
+Business line - static
+For example: DHCP
+Subnet, gateway (ISP)
+
+Reload
+Accept
+
+
+
